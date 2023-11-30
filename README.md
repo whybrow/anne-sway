@@ -1,3 +1,3 @@
 ```
-nix run github:marcuswhybrow/sway
+nix run github:whybrow/anne-sway
 ```
