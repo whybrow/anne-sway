@@ -2,10 +2,10 @@
   rofi = "${inputs.rofi.packages.x86_64-linux.rofi}/bin/rofi";
   volume = "${inputs.volume.packages.x86_64-linux.volume}/bin/volume";
   brightness = "${inputs.brightness.packages.x86_64-linux.brightness}/bin/brightness";
+  waybar = "${inputs.waybar.packages.x86_64-linux.waybar}/bin/waybar";
   grimshot = "${pkgs.sway-contrib.grimshot}/bin/grimshot";
   gsound-play = "${pkgs.gsound}/bin/gsound-play";
   dbus-update-activation-environment = "${pkgs.dbus}/bin/dbus-update-activation-environment";
-  waybar = "${inputs.waybar.packages.x86_64-linux.waybar}/bin/waybar";
   swaynag = "${pkgs.sway}/bin/swaynag";
 in ''
     font pango:monospace 8.000000

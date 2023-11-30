@@ -3,9 +3,6 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    alacritty.url = "github:marcuswhybrow/alacritty";
-    private.url = "github:marcuswhybrow/private";
-    logout.url = "github:marcuswhybrow/logout";
     rofi.url = "github:marcuswhybrow/rofi";
     volume.url = "github:marcuswhybrow/volume";
     brightness.url = "github:marcuswhybrow/brightness";
